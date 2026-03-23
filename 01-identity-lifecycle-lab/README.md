@@ -16,17 +16,24 @@ Demonstrate Joiner, Mover, Leaver process using Microsoft Entra ID.
 
 “I onboarded below users in Entra ID and assigned access using security groups aligned to their roles.”
 
-Name	Department	Group	Role
-Alice	HR	HR	HR Manager
-Sumit	IT	IT	IT/System Manager
-Rob	Sales	Sales	Marketing/Sales Manager
-Ruby	Admin	Admin	Administrator/Receptionist
-Sue	Account	Account	Accountant/Finance Manager
-
 <img width="408" height="121" alt="image" src="https://github.com/user-attachments/assets/a2bd2c70-32ea-4647-bd69-41bf17f726c2" />
 
 ## Screenshots
-<img width="1910" height="695" alt="image" src="https://github.com/user-attachments/assets/cd4e27e2-ccf4-445b-b6d9-a3e00d8c13cd" />
+<img width="1916" height="818" alt="image" src="https://github.com/user-attachments/assets/e0b1ab06-4b4d-44cb-b8e3-b67687bf8e66" />
+
+<img width="1917" height="643" alt="image" src="https://github.com/user-attachments/assets/a5500526-ed3a-42f0-a65e-66ac0419a0a8" />
+
+<img width="1914" height="681" alt="image" src="https://github.com/user-attachments/assets/b4e6882c-8041-4f2b-8dc8-03a249959382" />
+
+<img width="1904" height="644" alt="image" src="https://github.com/user-attachments/assets/1653f383-a7bc-475a-98a3-fd397e26f0b0" />
+
+
+
+
+
+
+
+
 
 
 
