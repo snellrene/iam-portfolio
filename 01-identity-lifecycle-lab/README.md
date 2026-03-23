@@ -14,7 +14,7 @@ Demonstrate Joiner, Mover, Leaver process using Microsoft Entra ID.
 
 (Created a new employees and assigned access respective to their Group/Role)
 
-“I onboarded below users in Entra ID and assigned access using security groups aligned to their roles.”
+“I onboarded below users in Entra ID and assigned access using security groups aligned to their roles (RBAC).”
 
 <img width="408" height="121" alt="image" src="https://github.com/user-attachments/assets/a2bd2c70-32ea-4647-bd69-41bf17f726c2" />
 
