@@ -70,6 +70,10 @@ To enhance identity therft security I add extra protection to users by enabling 
 
   <img width="1893" height="699" alt="image" src="https://github.com/user-attachments/assets/13cfb225-4a30-4be5-b01b-8d4f10895ad8" />
 
+## Real-World Impact: 
+
+This project simulates real IAM operations performed in organizations to manage user access securely and reduce security risks.
+
 
 
 
