@@ -34,6 +34,8 @@ Demonstrate Joiner, Mover, Leaver process using Microsoft Entra ID.
 
 (I handled a mover (Rob) scenario by removing outdated sales access and reassigning role-based access for IT using group membership and thus eliminate security risks.)
 
+## Screenshots: Mover
+
 <img width="1908" height="475" alt="image" src="https://github.com/user-attachments/assets/b91b2b13-5299-4a83-86f0-70407cc8a6ac" />
 
 <img width="1910" height="444" alt="image" src="https://github.com/user-attachments/assets/21e57452-ec54-490e-b522-18b29f6e241c" />
@@ -42,13 +44,15 @@ Demonstrate Joiner, Mover, Leaver process using Microsoft Entra ID.
 
 (I performed secure offboarding for Sumit_IT by blocking sign-in and removing all group-based access to ensure no residual permissions remained.)
 
+## Screenshots: Leaver
+
 <img width="1907" height="423" alt="image" src="https://github.com/user-attachments/assets/d6d513e2-f766-43d4-bf51-0c6fa9752576" />
 
 <img width="1905" height="762" alt="image" src="https://github.com/user-attachments/assets/f3a4b4fa-2d0f-46a0-bd77-bad360500aac" />
 
 <img width="1896" height="563" alt="image" src="https://github.com/user-attachments/assets/3e0b73b5-3196-4a56-9a2a-202851dfed8a" />
 
-Sumit_IT is now: Blocked from signing in, Not in any group and his account deleted.
+Sumit_IT is now: Blocked from signing in, Not in any group and his account deleted. This prevents Data theft, Unauthorized access and Insider threats.
 
 
 
