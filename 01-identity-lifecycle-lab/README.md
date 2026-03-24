@@ -70,12 +70,18 @@ To enhance identity therft security I add extra protection to users by enabling 
 
   <img width="1216" height="484" alt="Alice_HR MFA" src="https://github.com/user-attachments/assets/475bb317-798d-4468-9306-78f9ba9f8bb9" />
 
- ## Real-World Impact: 
+## Real-World Impact: 
 
 This project simulates real IAM operations performed in organizations to manage user access securely and reduce security risks.
 
+## Key Learnings
+- Importance of RBAC in access control
+- Secure user offboarding prevents unauthorized access
+- MFA significantly improves identity security
 
-
+## Future Improvements
+- Implement Conditional Access policies
+- Automate provisioning using PowerShell
 
 
 
