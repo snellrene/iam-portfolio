@@ -1,6 +1,6 @@
 # Identity Lifecycle Management Lab (Joiner-Mover-Leaver)
 
-This project simulates real-world IAM lifecycle processes used in enterprises.
+This project simulates real-world IAM lifecycle processes used in enterprises. I implemented end-to-end IAM lifecycle management using Entra ID, including RBAC, MFA, and secure offboarding.
 
 ## Objective
 
@@ -10,7 +10,7 @@ Demonstrate Joiner, Mover, Leaver process using Microsoft Entra ID.
 
 * Microsoft Entra ID
 
-## Scenario 1: Joiner
+## Scenario 1: Joiner (User Onboarding)
 
 (Created a new employees and assigned access respective to their Group/Role)
 
@@ -40,7 +40,7 @@ Demonstrate Joiner, Mover, Leaver process using Microsoft Entra ID.
 
 <img width="1910" height="444" alt="image" src="https://github.com/user-attachments/assets/21e57452-ec54-490e-b522-18b29f6e241c" />
 
-## Scenario 3: Leaver
+## Scenario 3: Leaver (User Offboarding)
 
 (I performed secure offboarding for Sumit_IT by blocking sign-in and removing all group-based access to ensure no residual permissions remained.)
 
@@ -53,6 +53,23 @@ Demonstrate Joiner, Mover, Leaver process using Microsoft Entra ID.
 <img width="1896" height="563" alt="image" src="https://github.com/user-attachments/assets/3e0b73b5-3196-4a56-9a2a-202851dfed8a" />
 
 Sumit_IT is now: Blocked from signing in, Not in any group and his account deleted. This prevents Data theft, Unauthorized access and Insider threats.
+
+## Multi-Factor Authenticator (MFA)
+
+To enhance identity therft security I add extra protection to users by enabling MFA (Multi-Factor Authentication). Now even user password compromise user needs second verdification as per enterprise preferences and policies. The following additional forms of verification can be used with Microsoft Entra multifactor authentication:
+
+- Microsoft Authenticator
+- Windows Hello for Business
+- Passkey (FIDO2)
+- Passkey in Microsoft Authenticator
+- QR code
+- SMS
+- Voice call
+
+  <img width="1903" height="629" alt="image" src="https://github.com/user-attachments/assets/6a6fc1e6-91aa-4067-9f40-f22fbb8ea6f8" />
+
+  <img width="1893" height="699" alt="image" src="https://github.com/user-attachments/assets/13cfb225-4a30-4be5-b01b-8d4f10895ad8" />
+
 
 
 
