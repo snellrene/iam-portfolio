@@ -27,6 +27,7 @@ Demonstrate Joiner, Mover, Leaver process using Microsoft Entra ID.
 
 <img width="1904" height="644" alt="image" src="https://github.com/user-attachments/assets/1653f383-a7bc-475a-98a3-fd397e26f0b0" />
 
+<img width="1914" height="470" alt="image" src="https://github.com/user-attachments/assets/35e00a8b-156f-48ef-9bdb-0331ac6f4964" />
 
 
 
