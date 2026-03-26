@@ -48,4 +48,4 @@ Seeking entry-level IAM / Identity Analyst opportunities where I can apply my sk
 
 ## 📫 Contact
 - LinkedIn: (add your link)
-- GitHub: (this repo)
+- GitHub: [(this repo)](https://github.com/snellrene/iam-portfolio/tree/main)
