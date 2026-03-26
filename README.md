@@ -29,6 +29,13 @@ Certified in:
 
 📂 [View Project](./02-mfa-conditional-access)
 
+### 03 - Application SSO (Single-Sign-On)
+ - Single Sign-On (SSO)
+ - Identity Provider (IdP)
+ - Service Provider (SP)
+ - Access Management
+
+ - 
 ---
 
 ## 🧠 Skills Demonstrated
