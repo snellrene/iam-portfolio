@@ -8,7 +8,7 @@ Aspiring Identity & Access Management (IAM) professional with hands-on experienc
 - SC-900 (Microsoft Security, Compliance, and Identity Fundamentals)
 - SailPoint IdentityNow Leader
 - Certificate IV in Cyber Security
-- Cisco Introduction of Cyber Security https://www.credly.com/badges/3eb1b39b-50be-4e4f-a24e-005003e40b70/linked_in_profile
+- Cisco Introduction of Cyber Security
 - Cisco AI Technical Practitioner
 
 ## 🔐 Projects
