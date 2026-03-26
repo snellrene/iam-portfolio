@@ -1,14 +1,15 @@
-# IAM Portfolio – Hands-on Labs
+# IAM Portfolio
 
 ## 👋 About Me
+
 Aspiring Identity & Access Management (IAM) professional with hands-on experience in Microsoft Entra ID.
 
-Certified in:
+## License and Certificates:
 - SC-900 (Microsoft Security, Compliance, and Identity Fundamentals)
-- SailPoint IdentityNow Leader Badge
+- SailPoint IdentityNow Leader
 - Certificate IV in Cyber Security
-
----
+- Cisco Introduction of Cyber Security https://www.credly.com/badges/3eb1b39b-50be-4e4f-a24e-005003e40b70/linked_in_profile
+- Cisco AI Technical Practitioner
 
 ## 🔐 Projects
 
@@ -19,8 +20,6 @@ Certified in:
 - RBAC implementation
 
 📂 [View Project](./01-identity-lifecycle-lab)
-
----
 
 ### 02 – MFA & Conditional Access
 - Multi-Factor Authentication (MFA)
@@ -35,9 +34,8 @@ Certified in:
  - Service Provider (SP)
  - Access Management
 
- - 
----
-
+https://github.com/snellrene/iam-portfolio/tree/main/03-application-sso
+ 
 ## 🧠 Skills Demonstrated
 - Identity Lifecycle Management
 - RBAC (Role-Based Access Control)
@@ -45,12 +43,8 @@ Certified in:
 - Conditional Access Policies
 - Security Best Practices
 
----
-
 ## 🎯 Career Objective
 Seeking entry-level IAM / Identity Analyst opportunities where I can apply my skills in identity security and access management.
-
----
 
 ## 📫 Contact
 - LinkedIn: (add your link)
