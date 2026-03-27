@@ -1,6 +1,6 @@
 # Policy 01: MFA Enforced Conditional Access 
 
-Company wants to enforce MFA for all users accessing any cloud application. I configured a Conditional Access policy to enforce MFA across all users and cloud applications, aligning with Zero Trust principles (Never Trust, Always Verify).
+Company wants to enforce MFA for all users accessing any cloud application. I configured a Conditional Access policy to enforce MFA across all users and cloud applications, aligning with Zero Trust principles (Never Trust, Always Verify). While testing Conditional Access, I encountered a user access issue due to unmet policy conditions and resolved it by reviewing and adjusting the policy.
 
 ## Overview
 Implemented Conditional Access policy to enforce secure authentication using MFA in Entra ID.
@@ -37,6 +37,36 @@ Implemented Conditional Access policy to block access from untrusted network/loc
 
 <img width="1895" height="894" alt="CA02 Policy_block untrusted access" src="https://github.com/user-attachments/assets/f9398347-3196-4030-9539-e91945b36f52" />
 
-## Real-World Relevance
+## ⚠️ Challenge Faced: Conditional Access Blocking User Access
+
+### Issue
+While testing Conditional Access policies, a user account was unable to access applications after successful sign-in.
+
+Error:
+"You cannot access this right now. Your sign-in was successful but does not meet the criteria to access this resource."
+
+<img width="518" height="487" alt="sign in blocked by condition access " src="https://github.com/user-attachments/assets/448a9167-6324-4ef9-9902-d1df70a6d3ae" />
+
+### Root Cause
+The Conditional Access policy required specific conditions (such as MFA or location), which were not satisfied by the user during login.
+
+### Resolution
+- Reviewed the Conditional Access policy configuration
+- Identified missing requirements (e.g., MFA or trusted location)
+- Updated policy conditions or ensured the user met the required criteria
+- Retested access successfully
+
+<img width="848" height="742" alt="MFA implemented" src="https://github.com/user-attachments/assets/0d5dd414-d246-4022-8623-5e09d220c329" />
+
+### Key Learning
+- Conditional Access policies must be carefully tested before applying broadly
+- Policies can unintentionally block legitimate users if conditions are too strict
+- Monitoring and troubleshooting user access is a key IAM responsibility
+- Excluding administrative (break-glass) accounts
+- Testing policies before full enforcement
+- Avoiding complete tenant lockout
+- 
+### Real-World Relevance
+In real organizations, Conditional Access misconfigurations can impact business operations by blocking legitimate users. IAM teams must balance security with usability.
 This project demonstrates how organizations enforce security policies to protect user identities and prevent unauthorized access.
 
