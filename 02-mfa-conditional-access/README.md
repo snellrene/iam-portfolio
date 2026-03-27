@@ -65,7 +65,7 @@ The Conditional Access policy required specific conditions (such as MFA or locat
 - Excluding administrative (break-glass) accounts
 - Testing policies before full enforcement
 - Avoiding complete tenant lockout
-- 
+  
 ### Real-World Relevance
 In real organizations, Conditional Access misconfigurations can impact business operations by blocking legitimate users. IAM teams must balance security with usability.
 This project demonstrates how organizations enforce security policies to protect user identities and prevent unauthorized access.
