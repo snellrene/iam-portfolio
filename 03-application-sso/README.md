@@ -9,15 +9,15 @@ This project demonstrates how Single Sign-On (SSO) is implemented using Microsof
 
 - Created enterprise application
 
-"https://github.com/user-attachments/assets/1e0485da-f3d0-4dc8-b8e2-4ddfb55773c0" />
+<img width="1901" height="910" alt="App created" src="https://github.com/user-attachments/assets/9db1b40b-b749-4dd1-92f0-d1461ca8a488" />
 
 - Assigned users/groups
 
-"https://github.com/user-attachments/assets/8dadb73e-8a9c-45e2-b6d8-371af1b531d2" />
+<img width="1912" height="884" alt="User assigned" src="https://github.com/user-attachments/assets/042266e4-5fad-40b0-990f-e67846036119" />
 
 - Configured Single Sign-On (SAML)
 
-"https://github.com/user-attachments/assets/2b886790-bb27-47e7-8f97-8b0e8123211c" />
+<img width="1884" height="911" alt="SSO(SAML)" src="https://github.com/user-attachments/assets/8547d3c2-7bac-4a94-b3e4-bcb395980dc8" />
 
 ## Key Concepts
 - Single Sign-On (SSO)
