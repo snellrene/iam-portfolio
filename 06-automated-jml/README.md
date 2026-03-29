@@ -1,19 +1,19 @@
 # Automated IAM Lifecycle (JML) Lab – Microsoft Entra ID
 
-## 📌 Overview
+##  Overview
 This project demonstrates an automated Joiner–Mover–Leaver (JML) lifecycle using Microsoft Entra ID.
 
 The solution leverages dynamic groups and user attributes to automatically provision, modify, and revoke access without manual intervention.
 
 ---
 
-## 🧱 Architecture
+##  Architecture
 
 User → Attribute (Department) → Dynamic Group → Access (Application / Role)
 
 ---
 
-## ⚙️ Implementation
+##  Implementation
 
 ### 1. User Attributes
 - Configured user properties such as:
@@ -49,14 +49,14 @@ Created dynamic security groups based on department:
 
 ### 4. Automation Scenarios
 
-#### ✅ Joiner (User Onboarding)
+### Joiner (User Onboarding)
 - Created new user with department = IT  
 - User automatically added to IT-Dynamic-Team  
 - Access granted automatically  
 
 ---
 
-#### 🔄 Mover (Role Change)
+### Mover (Role Change)
 - Updated user department: IT → HR  
 - User automatically removed from IT group  
 - Added to HR group  
@@ -64,13 +64,13 @@ Created dynamic security groups based on department:
 
 ---
 
-#### 🚪 Leaver (Offboarding)
+###🚪 Leaver (Offboarding)
 - Disabled user account  
 - Access effectively revoked  
 
 ---
 
-## 🧠 Key Concepts
+##  Key Concepts
 
 - Identity Lifecycle Management (JML)
 - Dynamic Groups
@@ -81,7 +81,7 @@ Created dynamic security groups based on department:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 (Add screenshots here)
 
@@ -92,7 +92,7 @@ Created dynamic security groups based on department:
 
 ---
 
-## ⚠️ Challenges & Learning
+##  Challenges & Learning
 
 ### Challenge
 Understanding limitations of assigning privileged roles directly to groups.
@@ -108,7 +108,7 @@ Understanding limitations of assigning privileged roles directly to groups.
 
 ---
 
-## 🌍 Real-World Relevance
+##  Real-World Relevance
 
 This project simulates how modern organizations automate identity lifecycle management using attribute-driven access control.
 
@@ -116,7 +116,7 @@ It reduces manual effort, improves consistency, and enhances security by ensurin
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Integrate HR system for automated user provisioning
 - Automate lifecycle using PowerShell / scripts
