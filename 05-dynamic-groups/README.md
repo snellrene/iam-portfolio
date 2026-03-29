@@ -1,4 +1,4 @@
-# Dynamic Groups Lab (Entra ID)
+# Dynamic Groups Lab
 
 ## Overview
 This project demonstrates automated group membership using dynamic rules in Microsoft Entra ID.
