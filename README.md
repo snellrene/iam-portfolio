@@ -5,13 +5,14 @@
 Aspiring Identity & Access Management (IAM) professional with hands-on experience in Microsoft Entra ID.
 
 ## License and Certificates:
+
 - SC-900 (Microsoft Security, Compliance, and Identity Fundamentals)
 - SailPoint IdentityNow Leader
 - Certificate IV in Cyber Security
 - Cisco Introduction of Cyber Security
 - Cisco AI Technical Practitioner
 
-## 🔐 Projects
+## 🔐 IAM Projects
 
 ### 01 – Identity Lifecycle Management
 - User onboarding (Joiner)
@@ -35,17 +36,48 @@ Aspiring Identity & Access Management (IAM) professional with hands-on experienc
  - Access Management
 
 https://github.com/snellrene/iam-portfolio/tree/main/03-application-sso
+
+### 04 - Privilaged Identity Management
+- Privileged Access Management
+- Eligible vs Active
+- Just-In-Time (JIT)
+- Least Privilege
+- Identity Security
+- PIM Audit and Compliance
+
+https://github.com/snellrene/iam-portfolio/tree/main/04-privilaged-access-identity-management
+
+### 05 - Dynamic Groups
+- Dynamic Groups
+- Attribute-Based Access Control (ABAC)
+- Identity Automation
+
+https://github.com/snellrene/iam-portfolio/tree/main/05-dynamic-groups
+
+### 06 - Austomated JML 
+
+- Identity Lifecycle Management (JML)
+- Dynamic Groups
+- Attribute-Based Access Control (ABAC)
+- Role-Based Access Control (RBAC)
+- Least Privilege
+- Access Automation
+
+https://github.com/snellrene/iam-portfolio/tree/main/06-automated-jml
  
 ## 🧠 Skills Demonstrated
+
 - Identity Lifecycle Management
-- RBAC (Role-Based Access Control)
-- MFA Implementation
-- Conditional Access Policies
 - Security Best Practices
+- Microsoft Entra ID (Azure AD)
+- RBAC / ABAC
+- Conditional Access & MFA
+- Single Sign-On (SAML)
+- Privileged Identity Management (PIM)
+- Automated JML
+- Dynamic Groups & Automation
+- Zero Trust Security
+
 
 ## 🎯 Career Objective
 Seeking entry-level IAM / Identity Analyst opportunities where I can apply my skills in identity security and access management.
-
-## 📫 Contact
-- LinkedIn: (add your link)
-- GitHub: [(this repo)](https://github.com/snellrene/iam-portfolio/tree/main)
