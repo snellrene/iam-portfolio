@@ -48,7 +48,7 @@ This project demonstrates how privileged access is managed securely using Micros
 - Just-In-Time (JIT)
 - Least Privilege
 - Identity Security
-- PIM Ausit and Compliance
+- PIM Audit and Compliance
 
 ## Real-World Relevance
 PIM reduces security risks by ensuring administrative access is temporary and controlled, minimizing exposure to privileged accounts.
