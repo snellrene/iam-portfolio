@@ -7,7 +7,7 @@ Aspiring Identity & Access Management (IAM) professional with hands-on experienc
 ## License and Certificates:
 
 - SC-900 (Microsoft Security, Compliance, and Identity Fundamentals)
-- SailPoint IdentityNow Leader
+- SailPoint IdentitySecurity Leader
 - Certificate IV in Cyber Security
 - Cisco Introduction of Cyber Security
 - Cisco AI Technical Practitioner
