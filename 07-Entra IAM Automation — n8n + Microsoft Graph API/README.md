@@ -15,11 +15,7 @@ This project automates the full identity lifecycle for new employees using **n8n
 
 ## Workflow Architecture
 
-
-Webhook → Format User Data → Get Token → Create User
-       → Department Check → Group Allocation (IF)
-            TRUE  → Group Creation → Wait → Resolve Group ID → Assign User to Group
-            FALSE → Resolve Group ID → Assign User to Group
+<img width="581" height="97" alt="image" src="https://github.com/user-attachments/assets/50d3401f-75e3-4aa6-a87a-f192d57e0711" />
 
 
 <img width="1090" height="347" alt="image" src="https://github.com/user-attachments/assets/513785f9-fb16-4696-ab7a-0f8644f77ef3" />
