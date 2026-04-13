@@ -149,6 +149,10 @@ Content-Type: application/json
 }
 
 
+```
+
+---
+
 
 
 ## Post- Automation Status: 
@@ -174,7 +178,3 @@ entra-iam-automation/
 │   └── group-assigned.png
 └── docs/
     └── setup-guide.md
-```
-
----
-
