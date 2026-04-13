@@ -175,14 +175,3 @@ entra-iam-automation/
 
 ---
 
-## Author
-
-**Snehalkumar Rana**  
-Senior Staff Engineer — Cyber Threat Intelligence & IT Security  
-[LinkedIn](https://linkedin.com/in/snehalkumar-rana) | [GitHub](https://github.com/snehalkumar-rana)
-
----
-
-## License
-
-MIT
