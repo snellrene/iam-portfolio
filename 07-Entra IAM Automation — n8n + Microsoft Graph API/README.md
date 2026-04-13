@@ -6,7 +6,7 @@ Automated user provisioning and RBAC group assignment using n8n workflows and Mi
 
 ## Overview
 
-This project automates the full identity lifecycle for new employees using **n8n**, **Microsoft Graph API**, and **Microsoft Entra ID**. When a new user is onboarded via a webhook trigger, the workflow automatically:
+This project automates the full identity lifecycle for new employees using **n8n**, **Microsoft Graph API**, **Postman** and **Microsoft Entra ID**. When a new user is onboarded via a webhook trigger, the workflow automatically:
 
 - Creates the user in Microsoft Entra ID
 - Detects their department
