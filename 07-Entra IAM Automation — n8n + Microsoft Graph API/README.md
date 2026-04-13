@@ -58,16 +58,15 @@ Webhook → Format User Data → Get Token → Create User
 
 ## Department → Group Mapping
 
-| Department | Group | Type |
-|---|---|---|
-| HR | HR | Assigned |
-| IT | IT | Assigned |
-| Sales | Sales | Assigned |
-| Admin | Admin | Assigned |
-| Account | Account | Assigned |
-| Any new dept | Auto-created | Assigned |
+| Department | Group | 
+|---|---|
+| HR | HR | 
+| IT | IT | 
+| Sales | Sales | 
+| Admin | Admin | 
+| Account | Account | 
+| Any new dept | Auto-created |
 
----
 
 ## Nodes Breakdown
 
