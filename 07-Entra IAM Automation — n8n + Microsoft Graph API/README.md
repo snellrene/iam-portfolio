@@ -54,8 +54,6 @@ Webhook → Format User Data → Get Token → Create User
 }
 ```
 
----
-
 ## Department → Group Mapping
 
 | Department | Group | 
@@ -100,8 +98,6 @@ Picks the correct group ID — either from the newly created group or the existi
 ### 10. Assign User to Group (HTTP Request)
 Adds the user as a member of the resolved group using `POST /groups/{id}/members/$ref`.
 
----
-
 ## Setup
 
 ### Prerequisites
@@ -126,8 +122,6 @@ Grant admin consent for:
 - `Group.ReadWrite.All`
 - `Directory.ReadWrite.All`
 
----
-
 ## Testing
 
 Use Postman to trigger the workflow:
@@ -143,7 +137,6 @@ Content-Type: application/json
 }
 ```
 
----
 
 ## Results
 
