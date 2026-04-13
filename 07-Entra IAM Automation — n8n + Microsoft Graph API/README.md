@@ -126,23 +126,32 @@ Grant admin consent for:
 
 ## Testing
 
+## Pre- Automation Status: 
+
+- 12 Users in Entra ID
+- 12 groups created
+- Account group has only one user assigned i.e. Sue Fong
+
+https://github.com/user-attachments/assets/549e9151-55d2-49a4-b12e-f5893e80b0e5
+
 Use Postman to trigger the workflow:
+
+## Scenarion 1: User created and added to existing group
 
 ```bash
 POST http://localhost:5678/webhook-test/entra-onboard
 Content-Type: application/json
 
 {
-    "firstName": "Jane",
-    "lastName": "Doe",
-    "department": "DevOps"
+    "firstName": "Bela",
+    "lastName": "Shah",
+    "department": "Account"
 }
-```
 
 
-https://github.com/user-attachments/assets/549e9151-55d2-49a4-b12e-f5893e80b0e5
 
 
+## Post- Automation Status: 
 
 ## Results
 
