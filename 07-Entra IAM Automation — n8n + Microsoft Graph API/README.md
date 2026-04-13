@@ -153,28 +153,44 @@ Content-Type: application/json
 
 ---
 
+## Scenarion 2: User created and added to newly created group
+
+```bash
+POST http://localhost:5678/webhook-test/entra-onboard
+Content-Type: application/json
+
+{
+    "firstName": "Tania",
+    "lastName": "Brown",
+    "department": "Compliance"
+}
 
 
-## Post- Automation Status: 
-
-## Results
-
-- User `jane.doe@yourtenant.onmicrosoft.com` created in Entra ID
-- DevOps group created (if not exists)
-- Jane Doe assigned to DevOps group
+```
 
 ---
 
-## Project Structure
+## Post- Automation Status: 
 
-```
-entra-iam-automation/
-├── README.md
-├── workflow/
-│   └── entra-iam-automation.json    # n8n workflow export
-├── screenshots/
-│   ├── workflow-canvas.png
-│   ├── user-created.png
-│   └── group-assigned.png
-└── docs/
-    └── setup-guide.md
+## Scenarion 1 Results:
+
+- User 'Bela Shah' created in Entra ID
+- Bela Shah assigned to existing Account group
+
+## Scenarion 2 Results:
+
+- User 'Tania Brown' created in Entra ID
+- Compliance group created ( newly created group, not exists)
+- Tania Brown assigned to Compliance group
+
+
+
+https://github.com/user-attachments/assets/db77559e-480a-4098-a5fd-d9fa6f2b7845
+
+
+## Learning Outcomes:
+
+Identity lifecycle automation
+RBAC implementation
+API integration with Microsoft Graph
+Workflow orchestration
