@@ -2,8 +2,6 @@
 
 Automated user provisioning and RBAC group assignment using n8n workflows and Microsoft Entra ID (Azure AD)
 
----
-
 ## Overview
 
 This project automates the full identity lifecycle for new employees using **n8n**, **Microsoft Graph API**, and **Microsoft Entra ID**. When a new user is onboarded via a webhook trigger, the workflow automatically:
@@ -13,26 +11,20 @@ This project automates the full identity lifecycle for new employees using **n8n
 - Assigns them to the correct security group (RBAC)
 - Creates a new group dynamically if one doesn't exist
 
----
-
 ## Workflow Architecture
 
-```
+
 Webhook → Format User Data → Get Token → Create User
        → Department Check → Group Allocation (IF)
             TRUE  → Group Creation → Wait → Resolve Group ID → Assign User to Group
             FALSE → Resolve Group ID → Assign User to Group
-```
+
 
 <img width="1090" height="347" alt="image" src="https://github.com/user-attachments/assets/513785f9-fb16-4696-ab7a-0f8644f77ef3" />
 
 
 <img width="891" height="1364" alt="image" src="https://github.com/user-attachments/assets/aa3cb62a-dec6-4bbe-8afd-bc2108744567" />
 
-
-
-
----
 
 ## Tech Stack
 
@@ -44,8 +36,6 @@ Webhook → Format User Data → Get Token → Create User
 | **OAuth 2.0 (Client Credentials)** | Token-based authentication |
 | **Postman** | Webhook testing |
 
----
-
 ## Features
 
 - **Auto User Provisioning** — Creates Entra ID users with UPN, display name, mail nickname
@@ -53,8 +43,6 @@ Webhook → Format User Data → Get Token → Create User
 - **Dynamic Group Creation** — If department group doesn't exist, creates it on the fly
 - **Propagation Handling** — Built-in Wait node handles Microsoft Graph API delay for new groups
 - **Extensible Mapping** — Department → Group ID map in Code node, easy to extend
-
----
 
 ## Webhook Payload
 
