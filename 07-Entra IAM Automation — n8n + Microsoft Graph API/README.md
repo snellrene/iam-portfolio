@@ -24,6 +24,14 @@ Webhook → Format User Data → Get Token → Create User
             FALSE → Resolve Group ID → Assign User to Group
 ```
 
+<img width="1090" height="347" alt="image" src="https://github.com/user-attachments/assets/513785f9-fb16-4696-ab7a-0f8644f77ef3" />
+
+
+<img width="891" height="1364" alt="image" src="https://github.com/user-attachments/assets/aa3cb62a-dec6-4bbe-8afd-bc2108744567" />
+
+
+
+
 ---
 
 ## Tech Stack
