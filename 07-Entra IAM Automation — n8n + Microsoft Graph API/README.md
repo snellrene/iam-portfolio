@@ -140,6 +140,10 @@ Content-Type: application/json
 ```
 
 
+https://github.com/user-attachments/assets/549e9151-55d2-49a4-b12e-f5893e80b0e5
+
+
+
 ## Results
 
 - User `jane.doe@yourtenant.onmicrosoft.com` created in Entra ID
