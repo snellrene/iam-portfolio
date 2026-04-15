@@ -64,6 +64,15 @@ https://github.com/snellrene/iam-portfolio/tree/main/05-dynamic-groups
 - Access Automation
 
 https://github.com/snellrene/iam-portfolio/tree/main/06-automated-jml
+
+### 07 - Entra IAM Automation — n8n + Microsoft Graph API 
+
+- Identity lifecycle automation
+- RBAC implementation
+- API integration with Microsoft Graph
+- Workflow orchestration
+
+[https://github.com/snellrene/iam-portfolio/tree/main/06-automated-jml](https://github.com/snellrene/iam-portfolio/tree/main/07-Entra%20IAM%20Automation%20%E2%80%94%20n8n%20%2B%20Microsoft%20Graph%20API)
  
 ## 🧠 Skills Demonstrated
 
@@ -77,6 +86,8 @@ https://github.com/snellrene/iam-portfolio/tree/main/06-automated-jml
 - Automated JML
 - Dynamic Groups & Automation
 - Zero Trust Security
+- API integration with Microsoft Graph
+- Workflow orchestration (n8n)
 
 
 ## 🎯 Career Objective
